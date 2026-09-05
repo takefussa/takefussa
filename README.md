@@ -2,7 +2,7 @@
 
 チーム開発では、バックエンドを中心に、ユーザーに届く体験を支える仕組みづくりに取り組んでいます。
 
-## チーム開発
+## 最近の開発（チーム）
 
 ### [オキタ！（Okita!）](https://github.com/takefussa/wake-hack) — 明日の朝を、誰かの声で。
 
@@ -23,3 +23,22 @@
 使用技術：TypeScript / Supabase（Auth・PostgreSQL・Storage）/ Expo・React Native / Swift・AlarmKit
 
 → [チームのリポジトリ・プロダクト紹介を見る](https://github.com/takefussa/wake-hack)
+
+## 過去の個人開発
+
+### Take Project｜タスク管理Webアプリ
+
+研究・学習などのタスクをプロジェクトごとに整理するアプリを、フロントエンドとバックエンドに分けて開発しました。
+タスクの追加・削除、クリックによる **Todo → In Progress → Done** の更新、プロジェクト別の進捗一覧を実装しています。
+
+- **フロントエンド**：Next.js / React / TypeScript / Chakra UI。画面と操作を実装し、メイン画面のデータをSupabaseへ保存。
+- **バックエンド**：Python / FastAPI / SQLAlchemy / PostgreSQL。プロジェクト・タスクの作成・取得・更新・削除を行うREST APIを実装。
+
+[フロントエンド](https://github.com/takefussa/take-project) · [バックエンド](https://github.com/takefussa/FastAPI)
+
+<details>
+<summary>タスク管理画面を見る</summary>
+
+![プロジェクトごとのタスクをTodo・In Progress・Doneに分けて管理する画面](https://raw.githubusercontent.com/takefussa/take-project/main/docs/images/task-board.png)
+
+</details>
